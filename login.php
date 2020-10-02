@@ -12,7 +12,7 @@ if (isset($_POST['login'])){
 		header("Location: x/".$_POST['link']);
 		die();
 	}
-        if ($_POST['username']=="admin" && $_POST['password']=="admin"){
+        if ($_POST['username']=="user" && $_POST['password']=="password"){
                 $_SESSION['lOg1naac']="p1ass";
                 header("Location: index.php");
         }
